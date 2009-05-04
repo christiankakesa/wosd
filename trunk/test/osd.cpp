@@ -12,5 +12,6 @@ int WINAPI WinMain(::HINSTANCE FirstInstance, ::HINSTANCE PrevInstance, ::LPSTR 
     WinOSD* wosd = new WinOSD(); //FirstInstance);
     wosd->PrintText();
     //wosd->PrintText(static_cast<Glib::ustring>("TOTO !!!"));
+    delete wosd;
     return (EXIT_SUCCESS);
 }
