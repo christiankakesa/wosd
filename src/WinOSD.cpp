@@ -5,14 +5,14 @@
 #include <string>
 #include <windows.h>
 
-#include "../src/wosd.h"
+#include "wosd.h"
 
 #define WINOSDCLASS ("__transparentwnd__")
 #define LWA_COLORKEY    0x00000001
 // set the SLWA type
 typedef BOOL(WINAPI *SLWA)(HWND, COLORREF, BYTE, DWORD);
 
-std::string WinOSD::m_text		= AUTHOR_NAME;
+std::string WinOSD::m_text		= CLASS_NAME;
 std::size_t WinOSD::m_width		= ::GetSystemMetrics(SM_CXSCREEN);
 std::size_t WinOSD::m_height	= 200;
 ::HFONT WinOSD::m_font			= ::CreateFont(72, 0, 0, 0, FW_BOLD, 0, 0, 0, 0, 0, 0, 0, 0, "Verdana");

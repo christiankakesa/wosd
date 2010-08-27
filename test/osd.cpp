@@ -1,8 +1,12 @@
 // test/osd.cpp
 // Christian KAKESA <christian.kakesa@gmail.com>
+// 
+// This file show you how you can use WinOSD in your project.
+// Thinkk about threadsafe or better implementation for fonts, font=size, position 
+// parameters. You can update this starting point.
 #include <windows.h>
 
-#include "../src/WinOSD.h"
+#include "../src/wosd.h"
 
 int WINAPI WinMain(::HINSTANCE FirstInstance, ::HINSTANCE PrevInstance, ::LPSTR CmdLine, int CmdShow)
 {
@@ -13,7 +17,7 @@ int WINAPI WinMain(::HINSTANCE FirstInstance, ::HINSTANCE PrevInstance, ::LPSTR 
 
     WinOSD* wosd = new WinOSD(); //FirstInstance);
     wosd->PrintText();
-    //wosd->PrintText(static_cast<std::string>("TOTO !!!"));
+    // wosd->PrintText(static_cast<std::string>("TOTO !!!"));
     delete wosd;
     return (EXIT_SUCCESS);
 }
