@@ -1,3 +1,5 @@
+// test/osd.cpp
+// Christian KAKESA <christian.kakesa@gmail.com>
 #include <windows.h>
 
 #include "../src/WinOSD.h"
@@ -11,7 +13,7 @@ int WINAPI WinMain(::HINSTANCE FirstInstance, ::HINSTANCE PrevInstance, ::LPSTR 
 
     WinOSD* wosd = new WinOSD(); //FirstInstance);
     wosd->PrintText();
-    //wosd->PrintText(static_cast<Glib::ustring>("TOTO !!!"));
+    //wosd->PrintText(static_cast<std::string>("TOTO !!!"));
     delete wosd;
     return (EXIT_SUCCESS);
 }
