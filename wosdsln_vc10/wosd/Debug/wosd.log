@@ -1,0 +1,23 @@
+﻿La génération a démarré 27/08/2010 23:52:52.
+Projet "C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\wosd\wosd.vcxproj" sur le nœud 2 (build cible(s)).
+InitializeBuildStatus:
+  Création de "Debug\wosd.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\WinOSD.cpp ..\..\test\osd.cpp
+  osd.cpp
+  WinOSD.cpp
+  Génération de code en cours...
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\Debug\osd.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\osd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\Debug\osd.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\Debug\osd.lib" /MACHINE:X86 Debug\WinOSD.obj
+  Debug\osd.obj
+  wosd.vcxproj -> C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\Debug\osd.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\Debug\osd.exe;#1" /manifest Debug\osd.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\wosd.unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\wosd.lastbuildstate".
+Génération du projet "C:\Users\christian\Documents\workspace\wosd\wosdsln_vc10\wosd\wosd.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:05.59
